@@ -1,0 +1,257 @@
+<InitMainVars>
+PS_DIRECTORY ** Not Set ** 
+ argv[0] is 'E:\Software\Wildfire\dsrc\x86e_win64\obj\ptcsetup.exe'
+ Try to figure it out now 
+ Path1 NOW: E:\Software\Wildfire\dsrc\x86e_win64\obj\ptcsetup.exe
+Now look for: E:\Software\Wildfire\dsrc\text\compiled_resource\ps_default_resources.dll
+Found E:\Software\Wildfire\dsrc\text\compiled_resource\ps_default_resources.dll
+ Resource file exists at: E:\Software\Wildfire\dsrc\text\compiled_resource\ps_default_resources.dll
+ So, set PS_DIRECTORY to: E:\Software\Wildfire\dsrc
+PTC_CDHOME ** Not Set ** 
+Now look for: E:\Software\Wildfire\ptc_inst\cdmaster.ptc
+ So, set PTC_CDHOME to: E:\Software\Wildfire
+<PsGetVar> Failed for: PTC_CDHOME
+DPS_DIRECTORY ** Not Set ** 
+ So, set DPS_DIRECTORY to: E:\Software\Wildfire\dsrc
+DONE <InitMainVars>
+<PsCd::PsCd> (E:\Software\Wildfire)
+<PsGetVar> Failed for: PS_INF_PATH
+<PsGetVar> Failed for: PS_INF_FILE
+ptc_inf_path: E:\Software\Wildfire\ptc_inst\ptc.inf
+<PsGetVar> Failed for: PS_ARCH_DB
+<PsInfFile::ReadInf> 'E:\Software\Wildfire\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 1
+Start of ReadInf time stamp: Sat Jun 22 11:57:54 India Standard Time 2019
+End of ReadInf time stamp: Sat Jun 22 11:57:54 India Standard Time 2019
+Init Translation/Message system
+
+ ---------------------------------- 
+ |      Welcome to PTC.Setup      | 
+ ---------------------------------- 
+ Time: Sat Jun 22 11:57:54 India Standard Time 2019
+ Could not get DomainName 
+ Host: sam
+ Machine type: x86e_win64
+ User: Htc
+ CurDir: E:\Software\Wildfire
+ PTC.Setup build info: Dec  8 2009 15:42:38
+ get_internal_version(): L-03-36
+ --------------------------------------------
+
+<PsGetVar> Failed for: PS_CDMASTER
+<PsCd::readResfile> cdmaster.ptc
+<PsCd::addProduct> (flexlm)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\flexlm.ptc
+PsPackage:: Setting up ezActions for pkg: uninstall
+PsPackage:: Setting up ezActions for pkg: ptcutil
+current flexver: 6.1
+default flexver: 6.1
+<PsCd::addProduct> (proe)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\proe.ptc
+PsPackage:: Setting up ezActions for pkg: mechhelp
+PsPackage:: Setting up ezActions for pkg: proehelp
+PsPackage:: Setting up ezActions for pkg: ptcutil
+can't open file0PsPackage:: Setting up ezActions for pkg: uninstall
+<PsCd::addProduct> (appmgr)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\appmgr.ptc
+PsPackage:: Setting up ezActions for pkg: uninstall
+<PsCd::addProduct> (dsq)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\dsq.ptc
+PsPackage:: Setting up ezActions for pkg: ptcutil
+PsPackage:: Setting up ezActions for pkg: uninstall
+<PsCd::addProduct> (ptchelp)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\ptchelp.ptc
+PsPackage:: Setting up ezActions for pkg: proehelp
+PsPackage:: Setting up ezActions for pkg: mechhelp
+PsPackage:: Setting up ezActions for pkg: cdrshelp
+PsPackage:: Setting up ezActions for pkg: conceptonehelp
+PsPackage:: Setting up ezActions for pkg: uninstall
+<PsCd::addProduct> (webpub)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\webpub.ptc
+BEGIN PsProductWebPub::Initialize()
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+<PsProduct::SetLoadpoint> old Loadpoint: 
+<PsCd::addProduct> (makecd)
+    <PsInstall::PsInstall> loadpoint: 
+    <PsInstall::Refresh> Path: ''
+Returning from PsInstall::Refresh because Path.IsEmpty
+<PsProduct::SetLoadpoint> new loadpoint: 
+ConvertDBAdd __PSF_COMMENT__ '//'
+<PsProduct::readResfile> E:\Software\Wildfire\ptc_inst\makecd.ptc
+PsPackage:: Setting up ezActions for pkg: ptcutil
+BEGIN PsProductMakeCD::Initialize()
+wrong machine type -> HIDING: appmgr
+PsCd: DelProduct called for index: 2
+Hiding ptcutil
+set_unihttp CB to PsDownloadAuth
+ClickWrapLA: clickwrap_la
+set_unihttp CB to PsDownloadAuth
+ConvertDBAdd __HOSTID__ 'C8-5B-76-03-C2-01'
+ConvertDBAdd __PRODUCT__ 'Pro/ENGINEER'
+ConvertDBAdd __RELNUM__ 'Wildfire 5.0'
+ConvertDBAdd __DCODE__ 'M020'
+<SetDlgBrowse> ScreenStudentLic.StudentLicFileBrowse - ScreenStudentLic.StudentLicFile type:2
+DirList.GetSize() = 53
+Generic InitFunc: ScreenDftCmds
+PsSetCompVal failed for ScreenServlet
+BEGIN ScreenWebPub::InitFunc()
+<LpcfgDcadCmd::InitFunc>
+ConvertDBAdd __WEBBROWSER__ 'netscape'
+Setup ScreenWelcome
+ScreenWelcome::DisplayLA - CountrySelected: 
+Which License Agreement will we display: clickwrap_la
+The Current UI Language: usascii
+License Agreement Found: E:\Software\Wildfire\dsrc\text\usascii\clickwrap_la.txt
+pushed is product btnScreenWelcome.ProdButton.1
+ScreenWelcome PostFunc Dir = 1
+ConvertDBAdd __INSTBLE__ 'Pro/ENGINEER'
+ConvertDBAdd __PRODUCT__ 'Pro/ENGINEER'
+ScreenWelcome Product::PreCheck for: Pro/ENGINEER
+Proengineer_precheck called
+SAVE EzProp OptionMenu label: ScreenWelcome.CountryMenu = []
+SAVE EzProp OptionMenu value: ScreenWelcome.CountryMenu = []
+SAVE EzProp CheckButton: ScreenWelcome.AcceptBtn = [TRUE]
+SAVE EzProp CheckButton: ScreenWelcome.DeclineBtn = [FALSE]
+tempfile = [E:\Software\Wildfire\dsrc]
+ Skipping Screen: ScreenLicAgree
+Convert(2): Possible key missing from ConvertDB: __LOADPOINT__
+PsGetDBValue: keyword (__LOADPOINT__) wasn't found.
+Setting up default loadpoint 
+<PsGetVar> Failed for: PS_ALT_ROOTPATH
+    <PsInstall::PsInstall> loadpoint: C:\Program Files\proeWildfire 5.0
+    <PsInstall::Refresh> Path: 'C:\Program Files\proeWildfire 5.0'
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files\proeWildfire 5.0\uninstall\proe_instlog.txt
+Using InstLog: C:\Program Files\proeWildfire 5.0\uninstall\instlog.txt
+InitLPdcode inst_log: C:\Program Files\proeWildfire 5.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+C:\Program Files\proeWildfire 5.0\version\proe.ver doesn't exist
+Look for: C:\Program Files\proeWildfire 5.0\version\proengineer.ver
+C:\Program Files\proeWildfire 5.0\version\proengineer.ver doesn't exist
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files\proeWildfire 5.0\uninstall\proe_instlog.txt
+Using InstLog: C:\Program Files\proeWildfire 5.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files\proeWildfire 5.0\uninstall\proe_instlog.txt
+Using InstLog: C:\Program Files\proeWildfire 5.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+<PsGetVar> Failed for: PS_INSTLOG
+Look for C:\Program Files\proeWildfire 5.0\uninstall\proe_instlog.txt
+Using InstLog: C:\Program Files\proeWildfire 5.0\uninstall\instlog.txt
+punGetLogFileData failed
+ERROR or no PUN_LOG_VER found  
+ New Cluster Size for this disk: 4096
+<PsInfFile::ReadInf> 'E:\Software\Wildfire\ptc_inst\ptc.inf'
+PsCD::LoadSummary
+PsInfFile::ReadInf ignoreCluster = 0
+Start of ReadInf time stamp: Sat Jun 22 11:58:34 India Standard Time 2019
+<PsInfFile::ReadInf> 'UseMsiFeatureSize' = 0
+ PsInfFile::ReadInf - Reread the ptc.inf file 
+cdsectionsize path = E:\Software\Wildfire\ptc_inst\cdsectionsize.txt
+cdsectionsize file was found
+Current ClusterSize = 4096
+cdsectionsizeIdx = 5
+End of ReadInf time stamp: Sat Jun 22 11:58:34 India Standard Time 2019
+<PsProduct::SetLoadpoint> new loadpoint: C:\Program Files\proeWildfire 5.0
+<PsProduct::SetLoadpoint> old Loadpoint: 
+ScreenProd::UpdateReleaseLab for lp =[C:\Program Files\proeWildfire 5.0]
+ReleaseLab.SetLabel: lab_str =[New installation of Wildfire 5.0 M020]
+ScreenProd::PreFunc instdir_val = C:\Program Files\proeWildfire 5.0
+ScreenProd::PreFunc update_flag = 0
+PsProduct::AddArch = x86e_win64
+PsProduct::AddLang = usascii
+GetByteSpaceReq proe_base return size = 1.96211e+009
+GetByteSpaceReq promech return size = 4.09977e+008
+GetByteSpaceReq proehelp return size = 7.17173e+008
+GetByteSpaceReq ptcutil return size = 3.82601e+007
+GetByteSpaceReq proeoptions return size = 1.23379e+009
+GetByteSpaceReq api_toolkits return size = 1.0315e+009
+GetByteSpaceReq interfaces return size = 5.52837e+007
+HIDING: productpoint
+GetByteSpaceReq mechhelp return size = 5.20765e+007
+GetByteSpaceReq promech_pkg return size = 3.08109e+008
+GetByteSpaceReq vermodels return size = 4.9791e+007
+GetByteSpaceReq efx return size = 3.18177e+008
+GetByteSpaceReq modelcheck return size = 1.44916e+007
+GetByteSpaceReq j2re return size = 9.70424e+007
+GetByteSpaceReq moldcat return size = 4.37043e+007
+GetByteSpaceReq proplastic return size = 6.09976e+007
+GetByteSpaceReq gpost return size = 5.55868e+007
+GetByteSpaceReq vericut return size = 5.11009e+008
+GetByteSpaceReq dbatchc return size = 1.3278e+008
+GetByteSpaceReq pro_java return size = 3.62373e+007
+GetByteSpaceReq weblink return size = 1.82845e+007
+GetByteSpaceReq vbapi return size = 6.34921e+007
+GetByteSpaceReq protoolkit return size = 9.13482e+008
+GetByteSpaceReq intfjt return size = 5.52837e+007
+GetByteSpaceReq proe_base return size = 1.96211e+009
+GetByteSpaceReq promech return size = 4.09977e+008
+GetByteSpaceReq proehelp return size = 7.17173e+008
+GetByteSpaceReq ptcutil return size = 3.82601e+007
+GetByteSpaceReq proeoptions return size = 1.23379e+009
+GetByteSpaceReq api_toolkits return size = 1.0315e+009
+GetByteSpaceReq interfaces return size = 5.52837e+007
+HIDING: productpoint
+Pkg: proe_base found to be not installed
+Pkg: promech found to be not installed
+Pkg: proehelp found to be not installed
+Pkg: ptcutil found to be not installed
+Pkg: proeoptions found to be not installed
+Pkg: api_toolkits found to be not installed
+Pkg: interfaces found to be not installed
+Pkg: productpoint found to be not installed
+Pkg: uninstall found to be not installed
+Refreshing Space Required
+Refreshing Space Avail
+    <PsInstall::Refresh> Path: 'C:\Program Files\proeWildfire 5.0'
+ <GetSpaceAvail> FreeSpace: 8.46414e+010
+Pkg: proe_base found to be not installed
+Pkg: promech found to be not installed
+Pkg: proehelp found to be not installed
+Pkg: ptcutil found to be not installed
+Pkg: proeoptions found to be not installed
+Pkg: api_toolkits found to be not installed
+Pkg: interfaces found to be not installed
+Pkg: productpoint found to be not installed
+Pkg: uninstall found to be not installed
+You have enough space
+main_dlg->Activate FAILED!
+STATUS my_main: 0
