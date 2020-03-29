@@ -6,7 +6,6 @@ use Time::Piece;
 my $unitPath = "C:\\Users\\Htc\\Desktop\\delete";
 #===========================================================
 #File Description:
-#	
 #	Automation Work
 #===========================================================
 #Algorithm Used:
@@ -82,9 +81,7 @@ rename("$unitPath.\\dt", "$unitPath.\\dt_plain") or die(Logger("Unable to Rename
 my $groupOffEnv = "Group off Variable"
 ExecutableProcess($groupOffEnv)
 
-
-
-#---------------------------------------------------------
+#--------------------------------------------------------
 sub ChangeInitFile
 {
 
@@ -118,9 +115,3 @@ sub Logger
 	print(FH $Log."\n");
 	close(FH);
 }
-#-----------------------------------------------------------
-
-
-
-
-
